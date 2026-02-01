@@ -1,0 +1,16 @@
+# Assignment 2
+# Aim: Perform set operations in Python
+
+
+A = {1, 2, 3}
+B = {3, 4, 5}
+
+union_set = A.union(B)
+print(union_set)
+
+
+intersection_set = A.intersection(B)
+print(intersection_set)
+
+difference_set = A.difference(B)
+print(difference_set)
