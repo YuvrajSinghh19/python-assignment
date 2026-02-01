@@ -1,0 +1,25 @@
+# Assignment 1
+# Aim: Demonstrate various list operations in Python
+
+#creating a list
+nums = [10, 20, 30, 40]
+print(nums)
+
+#accessing the list
+print(nums[0])      # first element
+print(nums[-1])     # last element
+
+#append
+nums.append(50)
+print(nums)
+
+#removing an element
+nums.remove(20)
+print(nums)
+
+#length of lit
+print(len(nums))
+
+#sorting of element
+nums.sort()
+print(nums)
