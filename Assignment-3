@@ -1,0 +1,28 @@
+# Assignment 3
+# Aim: Demonstrate tuple operations in Python
+
+#Create a Tuple
+t = (10, 20, 30)
+print(t)
+
+#Access Elements
+print(t[0])
+print(t[-1])
+
+#Nested Tuple
+nested = (1, 2, (3, 4, 5))
+print(nested)
+print(nested[2])
+print(nested[2][1])
+
+#Concatenation
+t1 = (1, 2, 3)
+t2 = (4, 5, 6)
+
+t3 = t1 + t2
+print(t3)
+
+#Repetition
+t = (7, 8)
+result = t * 3
+print(result)
